@@ -438,8 +438,8 @@ main {
     background: #FF5400;
     padding: 16px;
     position: absolute;
-    top: 70%;
-    left: 66%;
+   right: 0;
+   bottom: 5.2;
     transform: rotate(-25deg);
 }
 
