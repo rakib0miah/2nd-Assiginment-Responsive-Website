@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish";
+}
+
+
+:root {
+    --primary-title-color: #FF5400;
+    --primary-font-color: rgba(19, 19, 24, 0.70);
+    --secondary-font-color: #5A5A5D;
+}
+
+
+
+span {
+    color: var(--primary-title-color);
+}
+
+.common-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.primary-font-style {
+    color: var(--primary-font-color);
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.primary-button {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.24rem;
+    font-weight: 800;
+    padding: 14px 34px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #FF5400;
+    margin-top: 30px;
+}
+
+.secondary-button {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    position: relative;
+    padding: 16px 34px;
+    color: #FFF;
+}
+
+
+
+
+
+.nav-bars-icon {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    display: none;
+}
+
+
+
+
+.header {
+    width: 81%;
+    margin: 50px auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .nav-logo-name {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-logo {
+    width: 56px;
+    object-fit: cover;
+}
+
+.nav-container .nav-logo-name .nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-container .nav-list-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    color: #424247;
+    font-size: 1.13rem;
+}
+
+.nav-container .nav-list-container>li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-container .nav-list-container #list-home {
+    font-weight: 700;
+}
+
+
+
+.bannar-container {
+    margin-top: 50px;
+    min-height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../img/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.banner-information-container {
+    width: 62%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: #FFF;
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.banner-input-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input-container>div {
+    position: relative;
+}
+
+.banner-input-container>div>input {
+    border: 0;
+    width: 80%;
+    color: rgba(19, 19, 24, 0.50);
+    padding: 16px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.custom-icon-input {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+}
+
+.custom-icon-btn {
+    position: absolute;
+    bottom: 33%;
+    left: 18%;
+}
+
+
+main {
+    width: 81%;
+    margin: 100px auto;
+}
+
+
+
+
+
+.popular-tour-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.popular-tour-info {
+    width: 50%;
+}
+
+.popular-tour-img {
+    width: 50%;
+}
+
+.popular-tour-img>img {
+    width: 100%;
+    min-height: 550px;
+}
+
+.popular-tour-title {
+    margin-bottom: 20px;
+}
+
+.popular-tour-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popular-tour-list>li {
+    margin-bottom: 14px;
+}
+
+.popular-tour-bottom-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+}
+
+
+
+
+.choose-destination-section {
+    margin-top: 100px;
+}
+
+.choose-destination-info {
+    width: 56%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-section-description {
+    margin-top: 24px;
+}
+
+#maldives {
+    grid-area: maldives;
+}
+
+#indonesia {
+    grid-area: indonesia;
+}
+
+#srilanka {
+    grid-area: srilanka;
+}
+
+#north-america {
+    grid-area: america;
+}
+
+#kashmir {
+    grid-area: kashmir;
+}
+
+#bangladesh {
+    grid-area: bangladesh;
+}
+
+#bandarban {
+    grid-area: bandarban;
+}
+
+.destination-img-container {
+    margin-top: 48px;
+    display: grid;
+    gap: 24px;
+    grid-template-areas:
+        'maldives maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia indonesia'
+        'srilanka srilanka srilanka srilanka america america america america america kashmir kashmir kashmir'
+        'bangladesh bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban bandarban';
+}
+
+.destination-img-container>div {
+    position: relative;
+}
+
+.destination-img-title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    transform: translateX(-50%)
+}
+
+.destination-img-container>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.why-choose-area {
+    margin-top: 100px;
+}
+
+.why-choose-area .why-choose-info {
+    width: 54%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container .card .card-img {
+    width: 64px;
+    border-radius: 5px;
+}
+
+.card {
+    padding: 50px;
+    flex-basis: 39%;
+    border-radius: 16px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
+
+
+
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    gap: 24px;
+}
+
+.container .newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.container .newsletter-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+    margin-top: 16px;
+}
+
+#hr-tag {
+    border: 1px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.newsletter-form {
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-letter-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-letter-input>input {
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsletter-img {
+    min-height: 422px;
+    position: relative;
+    flex: 1;
+}
+
+
+
+
+.offer-card {
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 16px;
+    position: absolute;
+    top: 70%;
+    left: 66%;
+    transform: rotate(-25deg);
+}
+
+.offer-card>h6 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2vh;
+}
+
+.offer-card>h3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 3vh;
+    font-weight: 800;
+}
+
+
+
+
+.footer-area {
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 300px;
+}
+
+.footer-container {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.footer-title {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.footer-title>h2 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: var(--secondary-font-color);
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.social-media-list>a>i {
+    text-align: center;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+#footer-hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+#copy-rights {
+    color: #131318;
+    font-family: Inter;
+    font-weight: 300;
+}

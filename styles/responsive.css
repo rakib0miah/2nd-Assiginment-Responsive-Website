@@ -1,0 +1,151 @@
+@media screen and (max-width:600px) {
+    .header {
+        width: 85%;
+    }
+
+    .nav-container .nav-logo-name {
+        flex: 1;
+        gap: 6px;
+    }
+
+    .nav-container .nav-list-container {
+        display: none;
+    }
+
+    .nav-bars-icon {
+        display: block;
+    }
+
+    .banner-information-container {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 4vh;
+    }
+
+    .banner-description {
+        font-size: 2vh;
+        margin-bottom: 40px;
+    }
+
+    .banner-input-container {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-tour-container {
+        flex-direction: column;
+    }
+
+    .popular-tour-info {
+        width: 100%;
+    }
+
+    .popular-tour-img {
+        width: 100%;
+    }
+
+    .popular-tour-img>img {
+        width: 100%;
+    }
+
+    .popular-tour-title {
+        font-size: 4vh;
+        margin-bottom: 20px;
+    }
+
+    .choose-destination-info {
+        width: 100%;
+    }
+
+    .common-title {
+        font-size: 3vh;
+    }
+
+    .destination-section-description {
+        font-size: 2vh;
+    }
+
+    .destination-img-container {
+        grid-template-areas:
+            'maldives'
+            'indonesia'
+            'srilanka'
+            'america'
+            'kashmir'
+            'bangladesh'
+            'bandarban';
+
+    }
+
+    .why-choose-area .why-choose-info {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .card {
+        padding: 40px;
+        flex-basis: 100%;
+    }
+
+    .card-title {
+        font-size: 3vh;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .newsletter-form {
+        padding: 30px;
+        width: fit-content;
+    }
+
+    .newsletter-img {
+        min-height: 100%;
+    }
+
+    .offer-card {
+        padding: 10px;
+        position: absolute;
+    }
+
+    .offer-card>h6 {
+        font-size: 2vh;
+    }
+
+    .offer-card>h3 {
+        font-size: 3vh;
+    }
+
+    .footer-area {
+        padding: 30px;
+    }
+
+    .footer-content-container {
+        width: 100%;
+    }
+
+    .footer-title {
+        align-items: center;
+    }
+
+    .footer-title>h2 {
+        font-size: 6vh;
+    }
+
+    .footer-title>img {
+        width: 30px;
+    }
+
+    .footer-description {
+        font-size: 3vh;
+    }
+
+    #copyrights {
+        font-size: 2vh;
+    }
+}
